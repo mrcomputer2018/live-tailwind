@@ -1,24 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { TestimonialItem } from './components/TestimonialItem';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="p-10">
+        <TestimonialItem></TestimonialItem>
+        <a className='block shadow bg-gray-700 font-bold text-white text-center rounded-xl p-4 mt-5 hover:bg-gray-500' 
+        href="http://www.google.com.br">Quero me increver no curso!!!
         </a>
-      </header>
     </div>
   );
 }
